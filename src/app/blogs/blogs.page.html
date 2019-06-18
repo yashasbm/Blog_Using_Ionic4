@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Blog Post {{blogID}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>{{blogTitle}}</ion-card-title>
+      <ion-card-subtitle>{{blogSubTitle}}</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-content>
+      <img src="{{blogImage}}" alt="Images">
+      <br />
+      {{blogContent}}
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
